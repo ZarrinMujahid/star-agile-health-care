@@ -33,6 +33,6 @@ node {
 	
 	
 	stage("Ansible Deploy"){
-        ansiblePlaybook inventory: 'hosts', playbook: 'ansible-playbook.yaml'
+        ansiblePlaybook inventory: 'hosts', playbook: 'ansible-playbook.yml'
     }
 }
