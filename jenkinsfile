@@ -1,6 +1,6 @@
 def containerName="health"
 def tag="latest"
-def dockerHubUser="ZarrinMujahid"
+def dockerHubUser="zarrinmujahid"
 def gitURL="https://github.com/ZarrinMujahid/star-agile-health-care.get "
 
 node {
