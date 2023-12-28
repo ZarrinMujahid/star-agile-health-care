@@ -32,7 +32,7 @@ node {
     }
 	
 	
-	stage("Ansible Deploy"){
+	/*stage("Ansible Deploy"){
         ansiblePlaybook inventory: 'hosts', playbook: 'ansible-playbook.yml'
-    }
+    }*/
 }
